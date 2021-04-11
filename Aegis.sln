@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AegisLibrary", "AegisLibrary\AegisLibrary.csproj", "{FC0C85C0-0BB3-44E8-BB68-9BA1E70EE7EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AegisFront", "AegisFront\AegisFront.csproj", "{7F96F5A7-D1BF-49C2-BDE7-84A661ADDCF3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{68A66935-B678-4CC9-AF1A-B93D25F79112} = {68A66935-B678-4CC9-AF1A-B93D25F79112}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AegisLibraryService", "AegisLibraryService\AegisLibraryService.csproj", "{68A66935-B678-4CC9-AF1A-B93D25F79112}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AegisLibraryDA", "AegisLibraryDA\AegisLibraryDA.csproj", "{3CE82F5A-E95A-45C7-9AA8-8ABC9522EFB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AegisLibraryDATest", "AegisLibraryDATest\AegisLibraryDATest.csproj", "{5877414A-1414-44C5-948F-212EDB613885}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC0C85C0-0BB3-44E8-BB68-9BA1E70EE7EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC0C85C0-0BB3-44E8-BB68-9BA1E70EE7EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC0C85C0-0BB3-44E8-BB68-9BA1E70EE7EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC0C85C0-0BB3-44E8-BB68-9BA1E70EE7EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F96F5A7-D1BF-49C2-BDE7-84A661ADDCF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F96F5A7-D1BF-49C2-BDE7-84A661ADDCF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F96F5A7-D1BF-49C2-BDE7-84A661ADDCF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F96F5A7-D1BF-49C2-BDE7-84A661ADDCF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68A66935-B678-4CC9-AF1A-B93D25F79112}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68A66935-B678-4CC9-AF1A-B93D25F79112}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68A66935-B678-4CC9-AF1A-B93D25F79112}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68A66935-B678-4CC9-AF1A-B93D25F79112}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CE82F5A-E95A-45C7-9AA8-8ABC9522EFB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CE82F5A-E95A-45C7-9AA8-8ABC9522EFB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CE82F5A-E95A-45C7-9AA8-8ABC9522EFB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CE82F5A-E95A-45C7-9AA8-8ABC9522EFB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5877414A-1414-44C5-948F-212EDB613885}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5877414A-1414-44C5-948F-212EDB613885}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5877414A-1414-44C5-948F-212EDB613885}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5877414A-1414-44C5-948F-212EDB613885}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C1968D82-2A36-49BF-9957-8CFAEB523547}
+	EndGlobalSection
+EndGlobal

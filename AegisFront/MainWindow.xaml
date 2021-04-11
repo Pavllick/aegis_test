@@ -1,0 +1,30 @@
+﻿<Window x:Class="AegisFront.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AegisFront"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        Background="#fafafa">
+    <Grid HorizontalAlignment="Left">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition MinWidth="200" />
+        </Grid.ColumnDefinitions>
+        
+        <Button
+            Grid.Row="0"
+            Content="Add Book"
+            Click="AddBookBtn_Click"
+            Margin="0,0,0,10"
+            />
+        <ListView
+            Grid.Row="1"
+            x:Name="BooksListView"
+            HorizontalAlignment="Left"/>
+    </Grid>
+</Window>
